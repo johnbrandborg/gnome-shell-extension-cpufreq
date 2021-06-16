@@ -9,13 +9,13 @@ What it looks like?
 
 Everybody loves screenshots, right?
 
-.. image:: http://img26.imageshack.us/img26/8619/cpufreq.png
+.. image:: cpufreq.png
    :alt: CPU Frequency
 
-.. image:: http://img585.imageshack.us/img585/6726/cpufreqmenu.png
+.. image:: cpufreq_menu.png
    :alt: CPU Frequency with menu
 
-.. image:: http://img6.imageshack.us/img6/6573/cpufreqcolor.png
+.. image:: cpufreq_color.png
    :alt: CPU Frequency without desaturating
 
 Disclaimer
@@ -36,19 +36,19 @@ The extension scans /sys/devices/system/cpu[0-9]+/cpufreq directories to find in
 Instalation
 ===========
 
-The cpufreq@zdyb.tk directory should be copied to /usr/share/gnome-shell/extensions or ~/.local/share/gnome-shell/extensions/::
+The cpufreq@brandborg.id.au directory should be copied to /usr/share/gnome-shell/extensions or ~/.local/share/gnome-shell/extensions/::
 
-  # cp cpufreq\@zdyb.tk /usr/share/gnome-shell/extensions
+  # cp cpufreq\@brandborg.id.au /usr/share/gnome-shell/extensions
   
 or::
 
-  $ cp cpufreq\@zdyb.tk ~/.local/share/gnome-shell/extensions/
+  $ cp cpufreq\@brandborg.id.au ~/.local/share/gnome-shell/extensions/
   
 Please do not forget to enable the newly installed extension using for example gnome-tweak-tool_.
 
 .. _gnome-tweak-tool: http://live.gnome.org/GnomeTweakTool
 
-If you don't want icons to be desaturated, you can edit cpufreq\@zdyb.tk/extension.js file
+If you don't want icons to be desaturated, you can edit cpufreq\@brandborg.id.au/extension.js file
 and change DESATURATE to false::
 
   const DESATURATE = false;
